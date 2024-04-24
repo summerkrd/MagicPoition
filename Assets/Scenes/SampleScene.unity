@@ -6843,80 +6843,6 @@ Transform:
   - {fileID: 153622338}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1368190858
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1553941653}
-    m_Modifications:
-    - target: {fileID: 3524117181758224552, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_Name
-      value: PF Dungeon Props - Chest 02 Variant (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.70591
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.64839447
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 71d1cd5e916e8cc4280fdcdcff705b11, type: 3}
---- !u!4 &1368190859 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3524117181758224553, guid: 71d1cd5e916e8cc4280fdcdcff705b11,
-    type: 3}
-  m_PrefabInstance: {fileID: 1368190858}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1404960188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7595,7 +7521,6 @@ Transform:
   - {fileID: 2145325742}
   - {fileID: 2066683761}
   - {fileID: 1098128162}
-  - {fileID: 1368190859}
   - {fileID: 1630547024}
   - {fileID: 57181227}
   - {fileID: 440233311}
@@ -7639,7 +7564,7 @@ PrefabInstance:
     - target: {fileID: 69156616771341553, guid: ad41e57ad64ded74cb731d57dc9bcc99,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.59839445
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 69156616771341553, guid: ad41e57ad64ded74cb731d57dc9bcc99,
         type: 3}
@@ -9122,7 +9047,7 @@ PrefabInstance:
     - target: {fileID: 335421252829632701, guid: dc1f292383f379648a29933070ee0fd1,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.6083674
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 335421252829632701, guid: dc1f292383f379648a29933070ee0fd1,
         type: 3}
