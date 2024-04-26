@@ -5,6 +5,7 @@ using UnityEngine;
 public class SelectObject : MonoBehaviour
 {
     [SerializeField] private GameObject _interface;
+    [SerializeField] private GameObject _outline;
     //[SerializeField] private GameObject _object;
     private bool _selected;
 
@@ -20,6 +21,7 @@ public class SelectObject : MonoBehaviour
     {
         transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
         _selected = true;
+        _outline.SetActive(true);
         //_object.SetActive(true);
     }
 
@@ -27,6 +29,7 @@ public class SelectObject : MonoBehaviour
     {
         transform.localScale = new Vector3(1f, 1f, 1f);
         _selected = false;
+        _outline.SetActive(false);
         //_object.SetActive(false);
     }
 
