@@ -3,7 +3,40 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bat
+  - Candle
+  - Candles
+  - Coal
+  - DeadGross
+  - EvilGross
+  - Eye
+  - Eyes
+  - Feather
+  - Feathers
+  - FirePlazma
+  - GreenWater
+  - Gross
+  - Hand
+  - Horn
+  - HornSkull
+  - LeavePlazma
+  - Lizard
+  - OldGross
+  - PinkPlazma
+  - Skull
+  - Spider
+  - BluePotion1
+  - CyanPotion2
+  - GreenPotion2
+  - OrangePotion1
+  - OrangePotion2
+  - PinkPotion1
+  - PinkPotion2
+  - PurplePotion1
+  - PurplePotion2
+  - RedPotion1
+  - RedPotion2
   layers:
   - Default
   - TransparentFX
