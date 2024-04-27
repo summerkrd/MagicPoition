@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3937049411769042051}
   - component: {fileID: 8312983890821287820}
   - component: {fileID: 6075930889480445798}
+  - component: {fileID: 806292831707137141}
   m_Layer: 5
   m_Name: GreenPotion2
   m_TagString: GreenPotion2
@@ -97,3 +98,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &806292831707137141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3040162437016985205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03e4b84beeeb71488c31757f3a2d9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 8312983890821287820}
+  parentAfterDrag: {fileID: 0}

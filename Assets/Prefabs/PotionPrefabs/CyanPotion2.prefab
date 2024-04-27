@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2462864755648169442}
   - component: {fileID: 4752336186902755326}
   - component: {fileID: 945769067293183399}
+  - component: {fileID: -9883467770382820}
   m_Layer: 5
   m_Name: CyanPotion2
   m_TagString: CyanPotion2
@@ -97,3 +98,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-9883467770382820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5371016331080700790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03e4b84beeeb71488c31757f3a2d9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 4752336186902755326}
+  parentAfterDrag: {fileID: 0}

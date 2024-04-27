@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1985201115973413439
+--- !u!1 &5628697842221595722
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,25 +8,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3358299723434646244}
-  - component: {fileID: 5558549024900774250}
-  - component: {fileID: 5277823205710410119}
-  - component: {fileID: 4695022297809856001}
-  - component: {fileID: -4353098797220016753}
+  - component: {fileID: 1088372610643224610}
+  - component: {fileID: 6857717954501523430}
+  - component: {fileID: 993494862515668403}
+  - component: {fileID: 5608561472407952426}
+  - component: {fileID: -5578031085731232750}
   m_Layer: 5
-  m_Name: RedPotion2
-  m_TagString: RedPotion2
+  m_Name: ExtraPotion
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &3358299723434646244
+--- !u!224 &1088372610643224610
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985201115973413439}
+  m_GameObject: {fileID: 5628697842221595722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -36,24 +36,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 150}
+  m_AnchoredPosition: {x: 677, y: -23}
+  m_SizeDelta: {x: 100, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &5558549024900774250
+--- !u!222 &6857717954501523430
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985201115973413439}
+  m_GameObject: {fileID: 5628697842221595722}
   m_CullTransparentMesh: 1
---- !u!114 &5277823205710410119
+--- !u!114 &993494862515668403
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985201115973413439}
+  m_GameObject: {fileID: 5628697842221595722}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2041344485, guid: 32e8014ba49bc2043946d884c1e998a8, type: 3}
+  m_Sprite: {fileID: -91339920, guid: 6482fd0e2536cd948bbad1be387e31f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -77,17 +77,17 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!95 &4695022297809856001
+--- !u!95 &5608561472407952426
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985201115973413439}
+  m_GameObject: {fileID: 5628697842221595722}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 72e5052b7c759b4489b8580b2d8e7ce4, type: 2}
+  m_Controller: {fileID: 9100000, guid: aa02a631ad32ae046b6b8e89cf961b16, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -98,17 +98,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-4353098797220016753
+--- !u!114 &-5578031085731232750
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985201115973413439}
+  m_GameObject: {fileID: 5628697842221595722}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b03e4b84beeeb71488c31757f3a2d9a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 5277823205710410119}
+  image: {fileID: 993494862515668403}
   parentAfterDrag: {fileID: 0}

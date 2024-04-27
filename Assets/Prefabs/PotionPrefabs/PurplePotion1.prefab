@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5240720642977933947}
   - component: {fileID: 6938371003292045973}
   - component: {fileID: 364441755653906800}
+  - component: {fileID: -6128057791082841998}
   m_Layer: 5
   m_Name: PurplePotion1
   m_TagString: PurplePotion1
@@ -97,3 +98,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-6128057791082841998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5977535621790454800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03e4b84beeeb71488c31757f3a2d9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 6938371003292045973}
+  parentAfterDrag: {fileID: 0}

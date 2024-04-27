@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 375673373820443426}
   - component: {fileID: 5947528249689269861}
   - component: {fileID: 3933093272873799749}
+  - component: {fileID: 7324051207797222356}
   m_Layer: 5
   m_Name: OrangePotion2
   m_TagString: OrangePotion2
@@ -97,3 +98,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7324051207797222356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9086954472861977976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03e4b84beeeb71488c31757f3a2d9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 5947528249689269861}
+  parentAfterDrag: {fileID: 0}

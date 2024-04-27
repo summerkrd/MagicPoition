@@ -78,6 +78,11 @@ public class ObjectCreationScript : MonoBehaviour
             CraftPotionIndex(6);
             DeleteMaterials();
         }
+        else if (CompareForCraft("FirePlazma", "LeavePlazma", "PinkPlazma"))
+        {
+            CraftPotionIndex(11);
+            DeleteMaterials();
+        }
     }
 
     public bool CompareForCraft(string materialTag1, string materialTag2, string materialTag3)

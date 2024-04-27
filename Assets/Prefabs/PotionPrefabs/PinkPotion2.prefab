@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2173413580121037901}
   - component: {fileID: 3742673225070588782}
   - component: {fileID: 2947659345227312234}
+  - component: {fileID: -1362655412210329138}
   m_Layer: 5
   m_Name: PinkPotion2
   m_TagString: PinkPotion2
@@ -97,3 +98,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1362655412210329138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6922740091566766608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03e4b84beeeb71488c31757f3a2d9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 3742673225070588782}
+  parentAfterDrag: {fileID: 0}
