@@ -28,4 +28,9 @@ public class SpawnResours : MonoBehaviour
             Destroy(deleteSlot);
         }
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }

@@ -10,6 +10,6 @@ public class CounterTasks : MonoBehaviour
 
     void Update()
     {
-        _ollTasks.text = _currentTask.ToString() + "/11";
+        _ollTasks.text = _currentTask.ToString() + "/12";
     }
 }

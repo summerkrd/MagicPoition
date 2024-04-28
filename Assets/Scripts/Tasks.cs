@@ -9,9 +9,9 @@ public class Tasks : MonoBehaviour
     public GameObject[] GameTask;
     public InventorySlot Slot;
     public AudioSource[] Audio;
-    [SerializeField] private int _maxTasks = 11;
-
-
+    [SerializeField] private int _maxTasks = 12;
+    private int _index = 0;
+    
     public void SubmitTask()
     {
         RefreshTask(0, "CyanPotion2");
@@ -20,7 +20,7 @@ public class Tasks : MonoBehaviour
         RefreshTask(3, "RedPotion2");
         RefreshTask(4, "PinkPotion2");
         RefreshTask(5, "OrangePotion1");
-        RefreshTask(6, "BluePotion");
+        RefreshTask(6, "BluePotion1");
         RefreshTask(7, "RedPotion1");
         RefreshTask(8, "PurplePotion2");
         RefreshTask(9, "PurplePotion1");
@@ -30,20 +30,20 @@ public class Tasks : MonoBehaviour
 
     public void RefreshTask(int TaskIndex, string PotionTag)
     {
-        int index = 0;
+        
         if (Slot.transform.childCount > 0)
         {
             if (GameTask[TaskIndex].gameObject.activeSelf && Slot.transform.GetChild(0).tag == PotionTag && CounterTasks._currentTask != _maxTasks)
             {
-
+                
                 GameObject Potion = Slot.transform.GetChild(0).gameObject;
                 Debug.Log("Вы сдали задание");
                 Destroy(Potion);
                 Audio[1].Play();
 
-                GameTask[index].SetActive(false);
-                index++;
-                GameTask[index].SetActive(true);
+                GameTask[_index].SetActive(false);
+                _index++;
+                GameTask[_index].SetActive(true);
 
                 CounterTasks._currentTask++;
                 
