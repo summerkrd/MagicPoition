@@ -45,9 +45,10 @@ public class Tasks : MonoBehaviour
                 GameTask[index].SetActive(true);
 
             }
-            else Audio[0].Play();
+            //Audio[0].Play();
         }
         else Audio[0].Play();
+        
     }
 
 }

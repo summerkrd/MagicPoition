@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class SpawnResours : MonoBehaviour
 {
     [SerializeField] private GameObject[] _resours;
     public InventorySlot Slot;
-
-
+    
 
     public void SpawnRes(int _randomRes)
     {
