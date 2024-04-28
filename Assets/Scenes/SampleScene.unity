@@ -16984,7 +16984,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: -30}
+  m_AnchoredPosition: {x: -100, y: -25}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 1, y: 1}
 --- !u!1 &1291847942
@@ -29195,10 +29195,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52ce9f0ef50045e4f91378e77e574f3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Material:
-  - {fileID: 1207839653160516457, guid: 3db9273da71eaad4cb9c3f6c3d35d84e, type: 3}
-  - {fileID: 1207839653160516457, guid: efd4953485426b9479a9e4e5ef4c9210, type: 3}
-  - {fileID: 1207839653160516457, guid: 19454475e2d359b428fb1d98ea8f75ae, type: 3}
   Potion:
   - {fileID: 7539724015756814073, guid: 7f31b415efeaf154e9a619765115e8d9, type: 3}
   - {fileID: 7333877468292846103, guid: 9c3fd3820b7e5ea4d8cfc97a11a12b38, type: 3}
