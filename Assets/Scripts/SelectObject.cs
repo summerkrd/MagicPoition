@@ -6,7 +6,7 @@ public class SelectObject : MonoBehaviour
 {
     [SerializeField] private GameObject _interface;
     [SerializeField] private GameObject _outline;
-    //[SerializeField] private GameObject _object;
+    //[SerializeField] private GameObject _book;
     private bool _selected;
 
     private void Update()
