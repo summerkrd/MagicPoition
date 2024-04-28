@@ -3390,7 +3390,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 300}
+  m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &193213738
 MonoBehaviour:
@@ -9700,9 +9700,10 @@ MonoBehaviour:
   - {fileID: 774669575}
   - {fileID: 735543202}
   Slot: {fileID: 1844147482}
-  Audio: []
+  Audio:
+  - {fileID: 60794442}
+  - {fileID: 710123705}
   _maxTasks: 11
-  _currentTasks: 0
 --- !u!1 &563547581
 GameObject:
   m_ObjectHideFlags: 0
@@ -29879,11 +29880,11 @@ RectTransform:
   - {fileID: 193213737}
   m_Father: {fileID: 1571987455}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -268, y: -49.75}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 100}
-  m_Pivot: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1973928420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29934,6 +29935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3854a45f01cb6e3488df3ef54ba60b09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _ollTasks: {fileID: 193213738}
 --- !u!1 &1975944384
 GameObject:
   m_ObjectHideFlags: 0
