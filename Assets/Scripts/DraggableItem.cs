@@ -9,6 +9,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public Image image;
     [HideInInspector] public Transform parentAfterDrag;
+    public AudioSource[] TakeUntake;
 
    
     public void OnBeginDrag(PointerEventData eventData)
@@ -18,6 +19,7 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         transform.SetParent(transform.root);
         transform.SetAsLastSibling();
         image.raycastTarget = false;
+        TakeUntake[0].Play();
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -31,5 +33,6 @@ public class DraggableItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         Debug.Log("End drag");
         transform.SetParent(parentAfterDrag);
         image.raycastTarget = true;
+        TakeUntake[1].Play();
     }
 }

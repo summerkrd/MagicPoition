@@ -90,3 +90,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 3949508720822038650}
   parentAfterDrag: {fileID: 0}
+  AudioSource:
+  - {fileID: 0}
+  - {fileID: 0}
