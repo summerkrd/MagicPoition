@@ -9,6 +9,7 @@ public class ObjectCreationScript : MonoBehaviour
     public GameObject[] Material;
     public GameObject[] Potion;
     public InventorySlot[] Slot;
+    public AudioSource[] AudioSources;
 
     public void CreateObject()
     {
@@ -22,7 +23,7 @@ public class ObjectCreationScript : MonoBehaviour
             GameObject resultPotion = Instantiate(Potion[0], resultPosition, Quaternion.identity);
             resultPotion.transform.SetParent(Slot[3].transform);
         }*/
-                
+
         if (CompareForCraft("GreenWater", "Eye", "Feather"))
         {
             CraftPotionIndex(5);
@@ -83,6 +84,11 @@ public class ObjectCreationScript : MonoBehaviour
             CraftPotionIndex(11);
             DeleteMaterials();
         }
+        else 
+        { 
+            AudioSources[0].Play();
+            Debug.Log("ErrorSound");
+        }
     }
 
     public bool CompareForCraft(string materialTag1, string materialTag2, string materialTag3)
@@ -96,6 +102,7 @@ public class ObjectCreationScript : MonoBehaviour
         Vector3 resultPosition = Slot[3].transform.position;
         GameObject resultPotion = Instantiate(Potion[potionIndex], resultPosition, Quaternion.identity);
         resultPotion.transform.SetParent(Slot[3].transform);
+        AudioSources[1].Play();
     }
     public void DeleteMaterials()
     {
