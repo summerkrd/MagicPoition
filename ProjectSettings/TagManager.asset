@@ -37,6 +37,7 @@ TagManager:
   - PurplePotion2
   - RedPotion1
   - RedPotion2
+  - ExtraPotion
   layers:
   - Default
   - TransparentFX

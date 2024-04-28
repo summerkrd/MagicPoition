@@ -47,7 +47,18 @@ public class InventorySlot : MonoBehaviour, IDropHandler
 
         if (_childObject != null && gridLayoutGroup != null)
         {
-            if (_childObjectTag == "CyanPotion2")
+            if (_childObjectTag == "CyanPotion2"||
+                _childObjectTag == "BluePotion1"||
+                _childObjectTag == "ExtraPotion"||
+                _childObjectTag == "GreenPotion2"||
+                _childObjectTag == "OrangePotion1"||
+                _childObjectTag == "OrangePotion2"||
+                _childObjectTag == "PinkPotion1"||
+                _childObjectTag == "PinkPotion2"||
+                _childObjectTag == "PurplePotion1"||
+                _childObjectTag == "PurplePotion2"||
+                _childObjectTag == "RedPotion1"||
+                _childObjectTag == "RedPotion2")
             {
                 gridLayoutGroup.cellSize = new Vector2(50, 100);
             }
