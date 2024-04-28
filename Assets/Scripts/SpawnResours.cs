@@ -7,7 +7,7 @@ public class SpawnResours : MonoBehaviour
 {
     [SerializeField] private GameObject[] _resours;
     public InventorySlot Slot;
-    
+
 
     public void SpawnRes(int _randomRes)
     {
@@ -24,7 +24,8 @@ public class SpawnResours : MonoBehaviour
     {
         if (Slot.transform.childCount != 0)
         {
-            Destroy(gameObject);
+            var deleteSlot = Slot.transform.GetChild(0).gameObject;
+            Destroy(deleteSlot);
         }
     }
 }
