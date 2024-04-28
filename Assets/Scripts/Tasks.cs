@@ -9,6 +9,8 @@ public class Tasks : MonoBehaviour
     public GameObject[] GameTask;
     public InventorySlot Slot;
     public AudioSource[] Audio;
+    [SerializeField] private int _maxTasks = 11;
+    [SerializeField] private int _currentTasks = 0;
 
 
     public void SubmitTask()
@@ -32,7 +34,7 @@ public class Tasks : MonoBehaviour
         int index = 0;
         if (Slot.transform.childCount > 0)
         {
-            if (GameTask[TaskIndex].gameObject.activeSelf && Slot.transform.GetChild(0).tag == PotionTag)
+            if (GameTask[TaskIndex].gameObject.activeSelf && Slot.transform.GetChild(0).tag == PotionTag && _currentTasks != _maxTasks)
             {
 
                 GameObject Potion = Slot.transform.GetChild(0).gameObject;
@@ -44,6 +46,8 @@ public class Tasks : MonoBehaviour
                 index++;
                 GameTask[index].SetActive(true);
 
+                _currentTasks++;
+                CounterTasks._ollTasks.text = _currentTasks.ToString() + "/11";
             }
             //Audio[0].Play();
         }
