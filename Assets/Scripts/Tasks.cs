@@ -10,7 +10,7 @@ public class Tasks : MonoBehaviour
     public InventorySlot Slot;
     public AudioSource[] Audio;
 
-    
+
     public void SubmitTask()
     {
         RefreshTask(0, "CyanPotion2");
@@ -45,11 +45,9 @@ public class Tasks : MonoBehaviour
                 GameTask[index].SetActive(true);
 
             }
+            else Audio[0].Play();
         }
-            
         else Audio[0].Play();
-        
     }
 
-    
 }
