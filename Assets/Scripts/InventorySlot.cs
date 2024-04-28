@@ -66,7 +66,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler
             {
                 gridLayoutGroup.cellSize = new Vector2(180, 180);
             }
-            Debug.Log("Изменение размера");
+            //Debug.Log("Изменение размера");
         }
         yield return null;
 
