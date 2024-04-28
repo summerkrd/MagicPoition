@@ -20,62 +20,62 @@ public class ObjectCreationScript : MonoBehaviour
             if (CompareForCraft("GreenWater", "Eye", "Feather"))
             {
                 CraftPotionIndex(5);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("PinkPlazma", "Candles", "Gross"))
             {
                 CraftPotionIndex(2);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("GreenWater", "Spider", "Skull"))
             {
                 CraftPotionIndex(7);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("Gross", "FirePlazma", "EvilGross"))
             {
                 CraftPotionIndex(10);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("Feather", "Bat", "Spider"))
             {
                 CraftPotionIndex(8);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("Spider", "LeavePlazma", "Skull"))
             {
                 CraftPotionIndex(1);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("HornSkull", "LeavePlazma", "Hand"))
             {
                 CraftPotionIndex(0);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("Skull", "OldGross", "OldGross"))
             {
                 CraftPotionIndex(4);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("Hand", "Lizard", "Horn"))
             {
                 CraftPotionIndex(9);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("Lizard", "FirePlazma", "EvilGross"))
             {
                 CraftPotionIndex(3);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("Lizard", "Spider", "Hand"))
             {
                 CraftPotionIndex(6);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else if (CompareForCraft("FirePlazma", "LeavePlazma", "PinkPlazma"))
             {
                 CraftPotionIndex(11);
-                DeleteMaterials();
+                //DeleteMaterials();
             }
             else
             {
@@ -96,9 +96,15 @@ public class ObjectCreationScript : MonoBehaviour
     public void CraftPotionIndex(int potionIndex)
     {
         Vector3 resultPosition = Slot[3].transform.position;
-        GameObject resultPotion = Instantiate(Potion[potionIndex], resultPosition, Quaternion.identity);
-        resultPotion.transform.SetParent(Slot[3].transform);
-        AudioSources[1].Play();
+        if (Slot[3].transform.childCount == 0)
+        {
+            GameObject resultPotion = Instantiate(Potion[potionIndex], resultPosition, Quaternion.identity);
+            resultPotion.transform.SetParent(Slot[3].transform);
+            AudioSources[1].Play();
+            DeleteMaterials();
+        }
+        else AudioSources[0].Play();
+        
     }
     public void DeleteMaterials()
     {
